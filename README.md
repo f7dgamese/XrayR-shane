@@ -1,10 +1,6 @@
 # XRayR
-A Xray backend framework that can easily support many panels.
 
 一个基于Xray的后端框架，支持V2ay,Trojan,Shadowsocks协议，极易扩展，支持多面板对接
-
-Find the source code here: [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR)
-
 
 # 安装 Docker
 
@@ -33,7 +29,7 @@ curl -fsSL https://get.docker.com | bash -s docker
 curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 ```
-1. `git clone https://github.com/Netflixxp/XrayR-release`
+1. `git clone https://github.com/f7dgamese/XrayR-shane`
 2. `cd XrayR-release`
 3. 编辑config。
 配置文件基本格式如下，Nodes下可以同时添加多个面板，多个节点配置信息，只需添加相同格式的Nodes item即可。
